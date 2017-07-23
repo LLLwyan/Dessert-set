@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    width: 1349px;
+    height: 0px;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width: 1349px;
+    height: 120px;
+}
+.toper{
+    width: 1349px;
+    background-color: white;
+}
+.with1{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    display: table-cell;
+    vert-align: top;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.step{
+    color: beige;
+    padding: 10px 10px 10px 10px;
+}
+.text-style1{
+    font-size: 12px;
+    color: #999999;
+}
+.text-style2{
+    font-size: 12px;
+    color:#999999;
+}
+.text-style3{
+    font-size: 12px;
+    color:#999999;
+}
+.globel{
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    display: table-cell;
+    vert-align: top;
+}
+.globel img:nth-child(1){
+    width: 17px;
+    height: 17px;
+}
+.globel img:nth-child(3){
+    width: 13px;
+    height: 17px;
+}
+.clear{
+    clear: both;
+}
+.dw{
+    margin: 0 auto;
+}
+.dhl{
+    background-color: #EC7CA2;
+    width: 1349px;
+    opacity: 0.6;
+}
+.dhl ul{
+    width: 1100px;
+    margin: 1px auto;
+
+}
+.dhl ul li{
+    text-align: center;
+    list-style-type: none;
+    float:left;
+    height: 66px;
+    line-height: 66px;
+    width: 220px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.dhl ul li  a{
+    height: 64px;
+    display: inline-block;
+    color: white;
+}
+.dhl ul li a:hover{
+    border-bottom: 2px solid yellow;
+}
+.bar{
+    position:absolute;
+    border-bottom:1px solid #F0F0F0;
+}
+
+.body{                      /*…ÌÃÂ*/
+    width: 1349px;
+}
+.content{
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.content .p1{
+    font-size: 35px;
+    padding-top:50px;
+    text-align: center;
+}
+.content .p2{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #737578;
+}
+.content p{
+    font-size: 14px;
+    text-indent:35px;
+    line-height: 35px;
+}
+.content img{
+    width: 400px;
+    height: 300px;
+    margin-left:200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    width: 1349px;
+    height: 210px;.
+}
+iframe{
+    width: 1349px;
+    height:210px;
+}

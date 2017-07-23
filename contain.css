@@ -1,0 +1,347 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.toper{
+    width: 1349px;
+    background-color: white;
+}
+.with1{
+    width: 1000px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    display: table-cell;
+    vert-align: top;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.step{
+    color: beige;
+    padding: 10px 10px 10px 10px;
+}
+.text-style1{
+    font-size: 12px;
+    color: #999999;
+}
+.text-style2{
+    font-size: 12px;
+    color:#999999;
+}
+.text-style3{
+    font-size: 12px;
+    color:#999999;
+}
+.globel{
+    float: right;
+    height: 32px;
+    line-height: 32px;
+    display: table-cell;
+    vert-align: top;
+}
+.globel img:nth-child(1){
+    width: 17px;
+    height: 17px;
+}
+.globel img:nth-child(3){
+    width: 13px;
+    height: 17px;
+}
+.clear{
+    clear: both;
+}
+.dhl{
+    background-color: #EC7CA2;
+    opacity: 0.8;
+
+    width: 100%;
+    height: 66px;
+    z-index: 1;
+}
+.dhl ul{
+    width: 1100px;
+    margin:0 auto;
+    color: white;
+
+}
+.dhl ul li{
+    text-align: center;
+    list-style-type: none;
+    float:left;
+    height: 66px;
+    line-height: 66px;
+    width: 220px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.dhl ul li  a{
+    height: 64px;
+    display: inline-block;
+    color: white;
+}
+.dhl ul li a:hover{
+    border-bottom: 2px solid yellow;
+}
+.bar{
+
+}
+.disDiv {
+    width: 1349px;
+    height: 630px;
+    margin: 0px;
+}
+.disImage{
+    width: 1349px;
+
+}
+.disImage img{
+    width: 1349px;
+    height: 630px;
+}
+/*这里是头部的华丽分界线*/
+.contenter{
+    height: 1110px;
+    width: 1349px;
+}
+.kongbai1{
+    height: 65px;
+    width: 1349px;
+}
+.tdwh{
+    height: 55px;
+    width: 1349px;
+}
+.tdwh p{
+    color: #F593A2;
+    font-size: 32px;
+    text-align: center;
+}
+.kongbai2{
+    height: 45px;
+    width: 1349px;
+}
+.hr{
+    width: 100px;
+    height:50px ;
+    border: 1px solid white;
+    border-top-color:#F593A2;
+    margin-left: 620px;
+}
+.mid_button{
+    height:50px;
+}
+.mid_button ul{
+    height: 110px;
+    list-style-type: none;
+    color: #F593A2;
+}
+.mid_button ul li{
+    background-color:rgb(235,235,235);
+}
+
+.button_1{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    float: left;
+    margin-left:450px;
+}
+.button_2{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    margin-left: 1px;
+}
+.button_3{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    float: left;
+    margin-left: 1px;
+
+}
+.button_1 a:link{
+    background-color: #F593A2;
+    color: white;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.button_1 a{
+    color: white;
+}
+.button_2 a{
+    color: #F593A2;
+}
+.button_3 a{
+    color: #F593A2;
+}
+.mid_button a{
+    display: block;
+    width: 140px;
+}
+.mid_button ul li:hover{
+    background-color: #F593A2;
+}
+.mid_button ul li a:hover{
+    color: white;
+}
+/*这里是中间文字的华丽分界线*/
+.contain ul{
+    margin-left: 185px;
+}
+.contain ul li{
+    position: relative;
+    width: 25%;
+    float: left;
+    list-style-type: none;
+    font-size: 0;
+    margin-left: 17px;
+    margin-top: 50px;
+}
+.contain ul li{
+    overflow: hidden;
+}
+.contain p{
+    width: 300px;
+}
+.p1{
+    position: absolute;
+    font-size: 28px;
+    color: black;
+    bottom: 60px;
+    text-align: center;
+}
+.p2{
+    position: absolute;
+    font-size: 14px;
+    color:orangered;
+    bottom: 35px;
+    text-align: center;
+}
+.contain ul li>img{
+    width: 370px;
+    height: 210px;
+}
+.contain ul li:hover{
+    transform: scale(1.1,1.1);
+}
+.zhezhao{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.zhezhao img:nth-child(1){
+    display: none;
+    width: 395px;
+    height: 290px;
+}
+.contain ul li:hover .p1,.contain ul li:hover .p2{
+    display: none;
+}
+.contain ul li:hover .zhezhao img:nth-child(1){
+    display: block;
+}
+.zhezhao p{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    width: 300px;animation: yidong 2s linear forwards  infinite;
+}
+.zhezhao .p3{
+    bottom: 150px;
+    font-size: 28px;
+    text-align: center;
+    animation: yidong 1s linear forwards  ;
+}
+
+@-webkit-keyframes yidong {
+    0% {
+        -webkit-transform: translateY(0px);
+    }
+
+    50% {
+        -webkit-transform: translateY(-40px);
+    }
+    100%{
+        -webkit-transform: translateY(0px);
+    }
+}
+.zhezhao .p4{
+    bottom: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+.zhezhao span{
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    bottom: 130px;
+    left: 120px;
+    border-bottom: 2px solid white;
+    animation: yidong 2s linear forwards  ;
+}
+
+.zhezhao .p3:hover,.zhezhao .p4:hover,.zhezhao span:hover{
+    display: block;
+}
+.zhezhao p a{
+    color: white;
+}
+/*图片排列完了*/
+.kongbai3{
+    height: 75px;
+    width: 100%;
+}
+.kongbai4{
+    height: 130px;
+    width: 100%;
+}
+.button_4{
+    height: 45px;
+    width: 200px;
+    border-radius: 8px;
+    color: #F593A2;
+    text-align: center;
+    line-height: 45px;
+    margin: auto;
+    border: 1px solid #F593A2;
+    list-style-type: none;
+}
+.kongbai4 ul li:hover,.kongbai4 ul a:hover{
+    background-color: #F593A2;
+    color: white;
+    border-radius: 8px;
+}
+.kongbai4 a{
+    display: block;
+    color: #F593A2;
+}
+.contenter{
+    background-color: white;
+}
+.footer{
+    width: 1349px;
+    height: 210px;.
+}
+iframe{
+    width: 1349px;
+    height:210px;
+}
